@@ -182,6 +182,7 @@
                         <outlet property="saveBtn" destination="Lui-R5-f33" id="ZSr-06-WJ9"/>
                         <outlet property="windowsBtn" destination="RhI-ZB-MS7" id="BYe-jR-od4"/>
                         <segue destination="UaP-cq-Oa2" kind="presentation" identifier="toCollection" id="XfV-fO-lmH"/>
+                        <segue destination="BYZ-38-t0r" kind="presentation" identifier="mainToHome" modalTransitionStyle="crossDissolve" id="agz-LZ-KaI"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GXD-Tl-MFV" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -247,7 +248,7 @@
                     </view>
                     <connections>
                         <outlet property="collectionView" destination="RWb-9m-DKE" id="44x-RH-dpi"/>
-                        <segue destination="HGn-Pj-Khb" kind="presentation" identifier="backMain" animates="NO" id="cRN-q4-TS0"/>
+                        <segue destination="HGn-Pj-Khb" kind="presentation" identifier="backMain" modalTransitionStyle="crossDissolve" animates="NO" id="cRN-q4-TS0"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mQI-oh-xOc" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -266,6 +267,6 @@
         <image name="windows5-2.png" width="128" height="128"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="MrB-e1-6CX"/>
+        <segue reference="cRN-q4-TS0"/>
     </inferredMetricsTieBreakers>
 </document>

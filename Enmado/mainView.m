@@ -98,7 +98,7 @@
 
 
 - (IBAction)backAction:(id)sender {
-    [self dismissViewControllerAnimated:YES completion:NULL];
+    [self performSegueWithIdentifier:@"mainToHome" sender:self];
 }
 
 
