@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "mainView.h"
 
 @interface ViewController : UIViewController
-
+- (IBAction)rollBtn:(id)sender;
+- (IBAction)cameraBtn:(id)sender;
 
 @end
 
