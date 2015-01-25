@@ -20,8 +20,8 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="enmadoSp.png" translatesAutoresizingMaskIntoConstraints="NO" id="gFr-xF-F84">
                                 <rect key="frame" x="0.0" y="-55" width="600" height="600"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="35P-0o-pex">
-                                <rect key="frame" x="348" y="445" width="64" height="64"/>
+                            <button opaque="NO" contentMode="center" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="35P-0o-pex">
+                                <rect key="frame" x="332" y="435" width="64" height="64"/>
                                 <state key="normal" image="photo134.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -30,7 +30,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gT3-bP-igi">
-                                <rect key="frame" x="217" y="445" width="64" height="64"/>
+                                <rect key="frame" x="203" y="435" width="64" height="64"/>
                                 <state key="normal" image="camera41.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -41,15 +41,39 @@
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="centerX" secondItem="gT3-bP-igi" secondAttribute="centerX" constant="60" id="0EG-9H-SGN"/>
-                            <constraint firstAttribute="trailing" secondItem="gFr-xF-F84" secondAttribute="trailing" id="7JX-SE-yiy"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="gFr-xF-F84" secondAttribute="bottom" constant="55" id="CBH-z1-8in"/>
-                            <constraint firstItem="gFr-xF-F84" firstAttribute="top" secondItem="3wo-00-eGG" secondAttribute="topMargin" constant="-55" id="Cuv-KP-xkt"/>
-                            <constraint firstAttribute="centerY" secondItem="35P-0o-pex" secondAttribute="centerY" constant="-180" id="S5N-pU-vB9"/>
-                            <constraint firstItem="gFr-xF-F84" firstAttribute="leading" secondItem="3wo-00-eGG" secondAttribute="leading" id="a21-lJ-bFu"/>
-                            <constraint firstAttribute="centerX" secondItem="35P-0o-pex" secondAttribute="centerX" constant="-60" id="gog-Nc-LV6"/>
-                            <constraint firstAttribute="centerY" secondItem="gT3-bP-igi" secondAttribute="centerY" constant="-180" id="k8S-tP-xZG"/>
+                            <constraint firstAttribute="trailing" secondItem="gFr-xF-F84" secondAttribute="trailing" id="16n-Yu-C5w"/>
+                            <constraint firstAttribute="centerX" secondItem="gT3-bP-igi" secondAttribute="centerX" constant="55" id="4Oh-6C-XpQ"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="gFr-xF-F84" secondAttribute="bottom" constant="55" id="IUN-Kw-Bbl"/>
+                            <constraint firstItem="gT3-bP-igi" firstAttribute="top" secondItem="35P-0o-pex" secondAttribute="top" id="LbJ-q0-ITQ"/>
+                            <constraint firstItem="gT3-bP-igi" firstAttribute="leading" secondItem="3wo-00-eGG" secondAttribute="leading" constant="261" id="PZj-Ec-DTf"/>
+                            <constraint firstAttribute="centerY" secondItem="35P-0o-pex" secondAttribute="centerY" constant="-150" id="c1J-DE-tsR"/>
+                            <constraint firstAttribute="centerX" secondItem="35P-0o-pex" secondAttribute="centerX" constant="-55" id="cSI-03-SG4"/>
+                            <constraint firstItem="gFr-xF-F84" firstAttribute="top" secondItem="3wo-00-eGG" secondAttribute="topMargin" constant="-55" id="fNt-yX-ZLh"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="35P-0o-pex" secondAttribute="bottom" constant="199" id="iPu-aO-gAv"/>
+                            <constraint firstAttribute="trailing" secondItem="35P-0o-pex" secondAttribute="trailing" constant="265" id="och-me-FFk"/>
+                            <constraint firstAttribute="centerY" secondItem="gT3-bP-igi" secondAttribute="centerY" constant="-150" id="qwe-XA-sYe"/>
+                            <constraint firstItem="gFr-xF-F84" firstAttribute="leading" secondItem="3wo-00-eGG" secondAttribute="leading" id="r4u-4Y-BjZ"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="LbJ-q0-ITQ"/>
+                                <exclude reference="PZj-Ec-DTf"/>
+                                <exclude reference="och-me-FFk"/>
+                                <exclude reference="iPu-aO-gAv"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=regular">
+                            <mask key="constraints">
+                                <exclude reference="4Oh-6C-XpQ"/>
+                                <include reference="LbJ-q0-ITQ"/>
+                                <include reference="PZj-Ec-DTf"/>
+                                <exclude reference="qwe-XA-sYe"/>
+                                <exclude reference="c1J-DE-tsR"/>
+                                <exclude reference="cSI-03-SG4"/>
+                                <include reference="och-me-FFk"/>
+                                <include reference="iPu-aO-gAv"/>
+                            </mask>
+                        </variation>
                     </view>
                     <connections>
                         <segue destination="HGn-Pj-Khb" kind="presentation" identifier="toMain" id="MrB-e1-6CX"/>
@@ -57,6 +81,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="139.5" y="135.75"/>
         </scene>
         <!--Main View-->
         <scene sceneID="bF1-tt-y5E">
@@ -161,7 +186,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GXD-Tl-MFV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="823" y="136"/>
+            <point key="canvasLocation" x="975" y="136"/>
         </scene>
         <!--Window Collection-->
         <scene sceneID="Xt4-z0-hwS">
@@ -227,7 +252,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mQI-oh-xOc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1511" y="136"/>
+            <point key="canvasLocation" x="1839" y="136"/>
         </scene>
     </scenes>
     <resources>

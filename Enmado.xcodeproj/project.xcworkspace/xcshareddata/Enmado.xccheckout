@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>B929CF81-989B-43AB-8AAB-73CCE9EF5C72</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Enmado</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>DC128DE45C86B8C90B8CE9061D28C1A83B32FC40</key>
+		<string>https://github.com/tksy2674/Enmado.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Enmado.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>DC128DE45C86B8C90B8CE9061D28C1A83B32FC40</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/tksy2674/Enmado.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>DC128DE45C86B8C90B8CE9061D28C1A83B32FC40</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>DC128DE45C86B8C90B8CE9061D28C1A83B32FC40</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Enmado</string>
+		</dict>
+	</array>
+</dict>
+</plist>
