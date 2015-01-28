@@ -131,18 +131,6 @@
                                     <action selector="saveAction:" destination="HGn-Pj-Khb" eventType="touchUpInside" id="6TX-Xy-ubC"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleAspectFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nIo-xQ-eoc">
-                                <rect key="frame" x="16" y="0.0" width="50" height="64"/>
-                                <state key="normal" image="home6_(1).png">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <variation key="heightClass=regular-widthClass=regular" ambiguous="YES" misplaced="YES">
-                                    <rect key="frame" x="76" y="916" width="74" height="83"/>
-                                </variation>
-                                <connections>
-                                    <action selector="backAction:" destination="HGn-Pj-Khb" eventType="touchUpInside" id="9Uf-MF-IYq"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1x5-hD-WEQ">
                                 <rect key="frame" x="180" y="517" width="64" height="63"/>
                                 <constraints>
@@ -183,6 +171,22 @@
                                     <action selector="collectionLaunch:" destination="HGn-Pj-Khb" eventType="touchUpInside" id="r8f-su-fmT"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nIo-xQ-eoc">
+                                <rect key="frame" x="16" y="8" width="44" height="56"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="56" id="VrP-Gk-62p"/>
+                                    <constraint firstAttribute="width" constant="44" id="tG9-CF-LQp"/>
+                                </constraints>
+                                <state key="normal" image="home6_(1).png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=regular" ambiguous="YES" misplaced="YES">
+                                    <rect key="frame" x="76" y="916" width="74" height="83"/>
+                                </variation>
+                                <connections>
+                                    <action selector="backAction:" destination="HGn-Pj-Khb" eventType="touchUpInside" id="9Uf-MF-IYq"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -191,7 +195,9 @@
                             <constraint firstAttribute="centerX" secondItem="Lui-R5-f33" secondAttribute="centerX" id="1jT-Rv-Xfv"/>
                             <constraint firstItem="LfQ-hy-Tnt" firstAttribute="leading" secondItem="DAZ-qh-qCt" secondAttribute="leading" id="2nM-QJ-mTM"/>
                             <constraint firstAttribute="trailingMargin" secondItem="LfQ-hy-Tnt" secondAttribute="trailing" constant="-16" id="3BD-MK-Xi4"/>
+                            <constraint firstItem="nIo-xQ-eoc" firstAttribute="top" secondItem="DAZ-qh-qCt" secondAttribute="topMargin" constant="8" id="3OA-Te-yYm"/>
                             <constraint firstItem="dp7-wk-5rV" firstAttribute="top" secondItem="1x5-hD-WEQ" secondAttribute="bottom" constant="28" id="7JV-WD-yMR"/>
+                            <constraint firstItem="nIo-xQ-eoc" firstAttribute="leading" secondItem="DAZ-qh-qCt" secondAttribute="leadingMargin" id="7qp-zr-mcu"/>
                             <constraint firstItem="RhI-ZB-MS7" firstAttribute="leading" secondItem="Lui-R5-f33" secondAttribute="trailing" constant="78" id="8iG-Jk-1qX"/>
                             <constraint firstItem="1x5-hD-WEQ" firstAttribute="leading" secondItem="nIo-xQ-eoc" secondAttribute="trailing" constant="89" id="9Ti-P5-3fV"/>
                             <constraint firstItem="dp7-wk-5rV" firstAttribute="top" secondItem="nIo-xQ-eoc" secondAttribute="bottom" constant="25" id="ACA-oy-6hN"/>
@@ -299,7 +305,6 @@
                         </variation>
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
                     <connections>
                         <outlet property="TweetBtn" destination="1x5-hD-WEQ" id="Mm7-Ip-rs7"/>
                         <outlet property="backBtn" destination="nIo-xQ-eoc" id="gh4-Lj-Bl9"/>
@@ -313,7 +318,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GXD-Tl-MFV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="969" y="146.25"/>
+            <point key="canvasLocation" x="964" y="153"/>
         </scene>
         <!--Window Collection-->
         <scene sceneID="Xt4-z0-hwS">
