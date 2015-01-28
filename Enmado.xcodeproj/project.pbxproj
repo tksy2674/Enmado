@@ -16,6 +16,7 @@
 		2B42A8D01A592D7A006DDE9A /* window_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B42A8CF1A592D7A006DDE9A /* window_1.png */; };
 		2B43F9621A74CD7900296AFF /* frame14_(1).png in Resources */ = {isa = PBXBuildFile; fileRef = 2B43F9601A74CD7900296AFF /* frame14_(1).png */; };
 		2B43F9631A74CD7900296AFF /* home6_(1).png in Resources */ = {isa = PBXBuildFile; fileRef = 2B43F9611A74CD7900296AFF /* home6_(1).png */; };
+		2B4ABD401A793162006AC476 /* padCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B4ABD3F1A793162006AC476 /* padCollection.m */; };
 		2B81F5301A63A7C10081D2B1 /* window_8.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B81F5231A63A7C10081D2B1 /* window_8.png */; };
 		2B81F5311A63A7C10081D2B1 /* window_9.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B81F5241A63A7C10081D2B1 /* window_9.png */; };
 		2B81F5321A63A7C10081D2B1 /* window_10.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B81F5251A63A7C10081D2B1 /* window_10.png */; };
@@ -68,6 +69,8 @@
 		2B42A8CF1A592D7A006DDE9A /* window_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = window_1.png; sourceTree = "<group>"; };
 		2B43F9601A74CD7900296AFF /* frame14_(1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "frame14_(1).png"; sourceTree = "<group>"; };
 		2B43F9611A74CD7900296AFF /* home6_(1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home6_(1).png"; sourceTree = "<group>"; };
+		2B4ABD3E1A793162006AC476 /* padCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = padCollection.h; sourceTree = "<group>"; };
+		2B4ABD3F1A793162006AC476 /* padCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = padCollection.m; sourceTree = "<group>"; };
 		2B81F5231A63A7C10081D2B1 /* window_8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = window_8.png; sourceTree = "<group>"; };
 		2B81F5241A63A7C10081D2B1 /* window_9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = window_9.png; sourceTree = "<group>"; };
 		2B81F5251A63A7C10081D2B1 /* window_10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = window_10.png; sourceTree = "<group>"; };
@@ -148,6 +151,8 @@
 				2BEACB331A43C49300B7A3AC /* ViewController.h */,
 				2BEACB341A43C49300B7A3AC /* ViewController.m */,
 				2BEACB361A43C49300B7A3AC /* Main.storyboard */,
+				2B4ABD3E1A793162006AC476 /* padCollection.h */,
+				2B4ABD3F1A793162006AC476 /* padCollection.m */,
 				2B0FFF9F1A5E53850009216B /* windowCollection.h */,
 				2B0FFFA01A5E53850009216B /* windowCollection.m */,
 				2B42A8CC1A592764006DDE9A /* mainView.h */,
@@ -343,6 +348,7 @@
 			files = (
 				2BEACB2F1A43C49300B7A3AC /* AppDelegate.m in Sources */,
 				2B0FFFA11A5E53850009216B /* windowCollection.m in Sources */,
+				2B4ABD401A793162006AC476 /* padCollection.m in Sources */,
 				2BEACB2C1A43C49300B7A3AC /* main.m in Sources */,
 				2BEACB351A43C49300B7A3AC /* ViewController.m in Sources */,
 				2BEACB321A43C49300B7A3AC /* Enmado.xcdatamodeld in Sources */,

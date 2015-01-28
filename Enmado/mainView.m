@@ -173,6 +173,23 @@
     
 }
 - (IBAction)collectionLaunch:(id)sender {
-    [self performSegueWithIdentifier:@"toCollection" sender:self];
+    if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone){
+        NSLog(@"to_iPhone");
+        [self performSegueWithIdentifier:@"toCollection" sender:self];
+
+    }
+    else if(UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad){
+        NSLog(@"to_iPad");
+        [self performSegueWithIdentifier:@"mainToPadC" sender:self];
+
+    }
+    else{
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle: @""
+                                                        message: @"Enmadoはこのデバイスに対応していません"
+                                                       delegate: nil
+                                              cancelButtonTitle: @"OK"
+                                              otherButtonTitles: nil];
+        [alert show];
+    }
 }
 @end
