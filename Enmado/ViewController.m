@@ -58,6 +58,10 @@ didFinishPickingMediaWithInfo:(NSDictionary *)info {
     [self dismissViewControllerAnimated:YES completion:^{
     }];
     
+    // DrawInRectによる再描画・回転補正
+    UIGraphicsBeginImageContext(pickedImage.size);
+    [pickedImage drawInRect:CGRectMake(0, 0, pickedImage.size.width, pickedImage.size.height)];
+    pickedImage = UIGraphicsGetImageFromCurrentImageContext();
     
     //取得した写真画像を"temp1.png"として"Documents"フォルダに保存、待避
     
