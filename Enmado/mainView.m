@@ -87,7 +87,7 @@
             break;
             
         case 11:
-            [self.WindowCredit setText:@"Creative Commons License BY, by"];
+            [self.WindowCredit setText:@"Creative Commons License BY-SA, by halfrain"];
             break;
             
         case 12:
@@ -123,7 +123,7 @@
             break;
             
         case 20:
-            [self.WindowCredit setText:@"Creative Commons License BY-NC-SA, by "];
+            [self.WindowCredit setText:@"Creative Commons License BY-SA, by halfrain"];
             break;
             
         default:
