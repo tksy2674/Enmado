@@ -95,6 +95,7 @@ didFinishPickingMediaWithInfo:(NSDictionary *)info {
         //ここでパラメータを渡す
         mainView *MVController = segue.destinationViewController;
         MVController.arguments = [NSString stringWithFormat:@"window_1.png"];
+        MVController.CNumbers = [NSNumber numberWithInt:1];
 
     }
 }

@@ -12,6 +12,7 @@
     NSString *selectedName;
 }
 @property () NSString *frameFile;
+@property () NSNumber *collectionNumber;
 @end
 
 @implementation windowCollection
@@ -50,6 +51,8 @@
     //cellが選択されたとき
     //なんかレイヤー順入れ替えてViewTagに2つけたら表示できた
     _frameFile = [NSString stringWithFormat:@"window_%d.png", (int)(indexPath.row+1)];
+    _collectionNumber = [NSNumber numberWithInt:(int)(indexPath.row+1)];
+
     
     //NSLog(@"Clicked window_%d.png",(int)(indexPath.row+1));
     [self performSegueWithIdentifier:@"backMain" sender:self];
@@ -63,7 +66,7 @@
         //ここでパラメータを渡す
         mainView *MVController = segue.destinationViewController;
         MVController.arguments = [NSString stringWithFormat:@"%@",_frameFile];
-        
+        MVController.CNumbers = _collectionNumber;
     }
 }
 

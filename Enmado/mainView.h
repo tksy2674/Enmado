@@ -12,8 +12,10 @@
 
 @interface mainView : UIViewController{
     NSString *arguments;
+    NSNumber *CNumbers;
 }
 @property NSString *arguments;
+@property NSNumber *CNumbers;
 
 @property (weak, nonatomic) IBOutlet UIImageView *frameIV;
 @property (weak, nonatomic) IBOutlet UIImageView *bottomPic;
@@ -25,6 +27,7 @@
 - (IBAction)TweetAction:(id)sender;
 @property (weak, nonatomic) IBOutlet UIButton *windowsBtn;
 - (IBAction)collectionLaunch:(id)sender;
+@property (weak, nonatomic) IBOutlet UILabel *WindowCredit;
 
 
 @end

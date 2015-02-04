@@ -17,6 +17,7 @@
 @implementation mainView
 
 @synthesize arguments = _arguments;
+@synthesize CNumbers = _CNumbers;
 
 
 - (void)viewDidLoad {
@@ -42,6 +43,18 @@
     //imageNamedを使うよりキャッシュを貯めこまないimageWithContentsOfFile
     self.bottomPic.image = [UIImage imageWithContentsOfFile:path];
     self.frameIV.image = [UIImage imageNamed:fileName];
+
+    int x = [_CNumbers intValue];
+    switch (x) {
+        case 1:
+            [self.WindowCredit setText:@"Window photo taken by biscorogus, BY-NC-SA"];
+            break;
+
+            
+        default:
+            NSLog(@"例外");
+            break;
+    }
     
 }
 
