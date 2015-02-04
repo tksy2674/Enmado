@@ -52,6 +52,8 @@
     //cellが選択されたとき
     //なんかレイヤー順入れ替えてViewTagに2つけたら表示できた
     _frameFile = [NSString stringWithFormat:@"window_%d.png", (int)(indexPath.row+1)];
+    _collectionNumber = [NSNumber numberWithInt:(int)(indexPath.row+1)];
+
     
     //NSLog(@"Clicked window_%d.png",(int)(indexPath.row+1));
     [self performSegueWithIdentifier:@"padCToMain" sender:self];
