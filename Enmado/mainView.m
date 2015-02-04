@@ -47,9 +47,84 @@
     int x = [_CNumbers intValue];
     switch (x) {
         case 1:
-            [self.WindowCredit setText:@"Window photo taken by biscorogus, BY-NC-SA"];
+            [self.WindowCredit setText:@"Creative Commons License BY-NC-SA, by biscorogus"];
+            break;
+        
+        case 2:
+            [self.WindowCredit setText:@"Creative Commons License BY-SA, by Takuma Kimura"];
+            break;
+        
+        case 3:
+            [self.WindowCredit setText:@"Creative Commons License BY-SA, by Susanne Nilsson"];
+            break;
+            
+        case 4:
+            [self.WindowCredit setText:@"Creative Commons License BY-NC-SA, by Stevie Spiers"];
             break;
 
+        case 5:
+            [self.WindowCredit setText:@"Creative Commons License BY-NC-SA, by yuki_september"];
+            break;
+
+        case 6:
+            [self.WindowCredit setText:@"Creative Commons License BY-SA, by tsuda"];
+            break;
+        
+        case 7:
+            [self.WindowCredit setText:@"Creative Commons License BY, by Noriko YAMAMOTO"];
+            break;
+        
+        case 8:
+            [self.WindowCredit setText:@"CC License BY-NC-SA, by Peter Kirkeskov Rasmussen"];
+            break;
+            
+        case 9:
+            [self.WindowCredit setText:@"Creative Commons License BY-NC-SA, by David Curran"];
+            break;
+        
+        case 10:
+            [self.WindowCredit setText:@"Creative Commons License BY, by Takuma Kimura"];
+            break;
+            
+        case 11:
+            [self.WindowCredit setText:@"Creative Commons License BY, by"];
+            break;
+            
+        case 12:
+            [self.WindowCredit setText:@"Creative Commons License BY-NC-SA, by Stephanie Yoder"];
+            break;
+            
+        case 13:
+            [self.WindowCredit setText:@"Creative Commons License BY, by Sids1"];
+            break;
+            
+        case 14:
+            [self.WindowCredit setText:@"Creative Commons License BY, by Yosuke Watanabe"];
+            break;
+            
+        case 15:
+            [self.WindowCredit setText:@"Creative Commons License BY, by Andrew Kuznetsov"];
+            break;
+            
+        case 16:
+            [self.WindowCredit setText:@"Creative Commons License BY, by liz west"];
+            break;
+
+        case 17:
+            [self.WindowCredit setText:@"Creative Commons License BY-SA, by Rod Waddington"];
+            break;
+            
+        case 18:
+            [self.WindowCredit setText:@"Creative Commons License BY, by Brian Pirie"];
+            break;
+            
+        case 19:
+            [self.WindowCredit setText:@"Creative Commons License BY-NC-SA, by Mike Gifford"];
+            break;
+            
+        case 20:
+            [self.WindowCredit setText:@"Creative Commons License BY-NC-SA, by "];
+            break;
             
         default:
             NSLog(@"例外");

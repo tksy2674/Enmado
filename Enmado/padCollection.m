@@ -12,6 +12,8 @@
     NSString *selectedName;
 }
 @property () NSString *frameFile;
+@property () NSNumber *collectionNumber;
+
 @end
 
 @implementation padCollection
@@ -63,7 +65,7 @@
         //ここでパラメータを渡す
         mainView *MVController = segue.destinationViewController;
         MVController.arguments = [NSString stringWithFormat:@"%@",_frameFile];
-        
+        MVController.CNumbers = _collectionNumber;
     }
 }
 
