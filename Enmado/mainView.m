@@ -148,7 +148,7 @@
     self.windowsBtn.hidden = YES;
     self.TweetBtn.hidden = YES;
     self.saveBtn.hidden = YES;
-    
+    self.WindowCredit.hidden = YES;
     
     CGRect screenRect = [[UIScreen mainScreen] bounds];
     UIGraphicsBeginImageContextWithOptions(screenRect.size, NO, 0);
@@ -167,6 +167,7 @@
     self.windowsBtn.hidden = NO;
     self.TweetBtn.hidden = NO;
     self.saveBtn.hidden = NO;
+    self.WindowCredit.hidden = NO;
 
     // PNGのデータとしてNSDataを作成します
     NSData *pngPicture = UIImagePNGRepresentation(screenImage);
@@ -196,7 +197,7 @@
     self.windowsBtn.hidden = YES;
     self.TweetBtn.hidden = YES;
     self.saveBtn.hidden = YES;
-    
+    self.WindowCredit.hidden = YES;
     
     CGRect screenRect = [[UIScreen mainScreen] bounds];
     //UIGraphicsBeginImageContext(screenRect.size);
@@ -217,6 +218,7 @@
     self.windowsBtn.hidden = NO;
     self.TweetBtn.hidden = NO;
     self.saveBtn.hidden = NO;
+    self.WindowCredit.hidden = NO;
     
     // JPEGのデータとしてNSDataを作成します
     NSData *data = UIImagePNGRepresentation(screenImage);
@@ -247,7 +249,7 @@
         }];
         
         // POSTするテキストの初期設定
-        NSString* message = [NSString stringWithFormat:@"testing on iOS8"];
+        NSString* message = [NSString stringWithFormat:@"Enmadoから覗いてみました"];
         [composeVC setInitialText:message];
         // URLをPOSTする場合
         [composeVC addURL:[NSURL URLWithString:@"https://itunes.apple.com/jp"]];
