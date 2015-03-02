@@ -11,7 +11,7 @@
 #import <QuartzCore/QuartzCore.h>
 
 @interface mainView ()
-
+@property () NSString *postURL;
 @end
 
 @implementation mainView
@@ -248,11 +248,95 @@
             }
         }];
         
+        //POSTするまえにURL判定
+        int x = [_CNumbers intValue]; //synthesizeしたCNumbersを使う
+        switch (x) {
+            case 1:
+                _postURL = [NSString stringWithFormat:@"http://bit.ly/1AyKxdr"];
+                break;
+                
+            case 2:
+                _postURL = [NSString stringWithFormat:@"http://bit.ly/1Dg9gAs"];
+                break;
+                
+            case 3:
+                _postURL = [NSString stringWithFormat:@"http://bit.ly/1wnNKau"];
+                break;
+
+            case 4:
+                _postURL = [NSString stringWithFormat:@"http://bit.ly/1DYad4h"];
+                break;
+            
+            case 5:
+                _postURL = [NSString stringWithFormat:@"http://bit.ly/1Dx5up4"];
+                break;
+            
+            case 6:
+                _postURL = [NSString stringWithFormat:@"http://bit.ly/1ETN4OZ"];
+                break;
+                
+            case 7:
+                _postURL = [NSString stringWithFormat:@"http://bit.ly/1FBFx7q"];
+                break;
+                
+            case 8:
+                _postURL = [NSString stringWithFormat:@"http://bit.ly/17CtPi6"];
+                break;
+            
+            case 9:
+                _postURL = [NSString stringWithFormat:@"http://bit.ly/1BEu21P"];
+                break;
+            
+            case 10:
+                _postURL = [NSString stringWithFormat:@"http://bit.ly/1asszQm"];
+                break;
+            
+            case 11:
+                _postURL = [NSString stringWithFormat:@"http://bit.ly/1Dx6AkH"];
+                break;
+            
+            case 12:
+                _postURL = [NSString stringWithFormat:@"http://bit.ly/1ast2BQ"];
+                break;
+
+            case 13:
+                _postURL = [NSString stringWithFormat:@"http://bit.ly/1FBH51o"];
+                break;
+            
+            case 14:
+                _postURL = [NSString stringWithFormat:@"http://bit.ly/1wtyi2l"];
+                break;
+            
+            case 15:
+                _postURL = [NSString stringWithFormat:@"http://bit.ly/1C2u6rT"];
+                break;
+            
+            case 16:
+                _postURL = [NSString stringWithFormat:@"http://bit.ly/1vEyRFE"];
+                break;
+                
+            case 17:
+                _postURL = [NSString stringWithFormat:@"http://bit.ly/1wtyBdm"];
+                break;
+            
+            case 18:
+                _postURL = [NSString stringWithFormat:@"http://bit.ly/1G037hQ"];
+                break;
+            
+            case 19:
+                _postURL = [NSString stringWithFormat:@"http://bit.ly/1MXenh7"];
+                break;
+                
+            case 20:
+                _postURL = [NSString stringWithFormat:@"http://bit.ly/1Dx6AkH"];
+                break;
+        }
+        
         // POSTするテキストの初期設定
         NSString* message = [NSString stringWithFormat:@"Enmadoから覗いてみました"];
         [composeVC setInitialText:message];
         // URLをPOSTする場合
-        [composeVC addURL:[NSURL URLWithString:@"https://itunes.apple.com/jp"]];
+        [composeVC addURL:[NSURL URLWithString:_postURL]];
         // 画像をPOSTする場合
         //iOS8では[UIImage imageNamed:@"../Documents/temp.jpg"]というdir直接指定はうまくいかない
         [composeVC addImage:[[UIImage alloc] initWithContentsOfFile:path]];
