@@ -12,6 +12,8 @@
 
 @interface mainView ()
 @property () NSString *postURL;
+@property () NSString *ccLicense;
+
 @end
 
 @implementation mainView
@@ -253,82 +255,102 @@
         switch (x) {
             case 1:
                 _postURL = [NSString stringWithFormat:@"http://bit.ly/1AyKxdr"];
+                _ccLicense = [NSString stringWithFormat:@"Frame「P4080927」, by biscorogus "];
                 break;
                 
             case 2:
                 _postURL = [NSString stringWithFormat:@"http://bit.ly/1Dg9gAs"];
+                _ccLicense = [NSString stringWithFormat:@"Frame「PhoTones Works #3184」, by Takuma Kimura "];
                 break;
                 
             case 3:
                 _postURL = [NSString stringWithFormat:@"http://bit.ly/1wnNKau"];
+                _ccLicense = [NSString stringWithFormat:@"Frame「By the window」, by Susanne Nilsson "];
                 break;
 
             case 4:
                 _postURL = [NSString stringWithFormat:@"http://bit.ly/1DYad4h"];
+                _ccLicense = [NSString stringWithFormat:@"Frame「Window View」, by Stevie Spiers "];
                 break;
             
             case 5:
                 _postURL = [NSString stringWithFormat:@"http://bit.ly/1Dx5up4"];
+                _ccLicense = [NSString stringWithFormat:@"Frame「明月院 円窓」, by yuki_september "];
                 break;
             
             case 6:
                 _postURL = [NSString stringWithFormat:@"http://bit.ly/1ETN4OZ"];
+                _ccLicense = [NSString stringWithFormat:@"Frame「new route: Loop Line」, by tsuda "];
                 break;
                 
             case 7:
                 _postURL = [NSString stringWithFormat:@"http://bit.ly/1FBFx7q"];
+                _ccLicense = [NSString stringWithFormat:@"Frame「機窓」, by Noriko YAMAMOTO "];
                 break;
                 
             case 8:
                 _postURL = [NSString stringWithFormat:@"http://bit.ly/17CtPi6"];
+                _ccLicense = [NSString stringWithFormat:@"Frame「Window to the World」, by Peter Kirkeskov Rasmussen "];
                 break;
             
             case 9:
                 _postURL = [NSString stringWithFormat:@"http://bit.ly/1BEu21P"];
+                _ccLicense = [NSString stringWithFormat:@"Frame「Window cat」, by David Curran "];
                 break;
             
             case 10:
                 _postURL = [NSString stringWithFormat:@"http://bit.ly/1asszQm"];
+                _ccLicense = [NSString stringWithFormat:@"Frame「PhoTones Works #3784」, by Takuma Kimura "];
                 break;
             
             case 11:
                 _postURL = [NSString stringWithFormat:@"http://bit.ly/1Dx6AkH"];
+                _ccLicense = [NSString stringWithFormat:@"Frame「Through the Door」, by halfrain "];
                 break;
             
             case 12:
                 _postURL = [NSString stringWithFormat:@"http://bit.ly/1ast2BQ"];
+                _ccLicense = [NSString stringWithFormat:@"Frame「Window」, by Stephanie Yoder "];
                 break;
 
             case 13:
                 _postURL = [NSString stringWithFormat:@"http://bit.ly/1FBH51o"];
+                _ccLicense = [NSString stringWithFormat:@"Frame「Stained Glass Window」, by Sids1 "];
                 break;
             
             case 14:
                 _postURL = [NSString stringWithFormat:@"http://bit.ly/1wtyi2l"];
+                _ccLicense = [NSString stringWithFormat:@"Frame by Yosuke Watanabe "];
                 break;
             
             case 15:
                 _postURL = [NSString stringWithFormat:@"http://bit.ly/1C2u6rT"];
+                _ccLicense = [NSString stringWithFormat:@"Frame「Window」, by Andrew Kuznetsov "];
                 break;
             
             case 16:
                 _postURL = [NSString stringWithFormat:@"http://bit.ly/1vEyRFE"];
+                _ccLicense = [NSString stringWithFormat:@"Frame「kitchen window」, by liz west "];
                 break;
                 
             case 17:
                 _postURL = [NSString stringWithFormat:@"http://bit.ly/1wtyBdm"];
+                _ccLicense = [NSString stringWithFormat:@"Frame「Rock Window, Yemen」, by Rod Waddington "];
                 break;
             
             case 18:
                 _postURL = [NSString stringWithFormat:@"http://bit.ly/1G037hQ"];
+                _ccLicense = [NSString stringWithFormat:@"Frame「Windows」, by Brian Pirie "];
                 break;
             
             case 19:
                 _postURL = [NSString stringWithFormat:@"http://bit.ly/1MXenh7"];
+                _ccLicense = [NSString stringWithFormat:@"Frame「Bars on the Windows」, by Mike Gifford "];
                 break;
                 
             case 20:
                 _postURL = [NSString stringWithFormat:@"http://bit.ly/1Dx6AkH"];
+                _ccLicense = [NSString stringWithFormat:@"Frame「Through the Door」, by halfrain "];
                 break;
         }
         
