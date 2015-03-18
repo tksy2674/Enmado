@@ -53,79 +53,79 @@
             break;
         
         case 2:
-            [self.WindowCredit setText:@"Frame「PhoTones Works #3184」, by Takuma Kimura"];
+            [self.WindowCredit setText:@"Frame ©2013「PhoTones Works #3184」, by Takuma Kimura"];
             break;
         
         case 3:
-            [self.WindowCredit setText:@"Frame「By the window」, by Susanne Nilsson"];
+            [self.WindowCredit setText:@"Frame ©2014「By the window」, by Susanne Nilsson"];
             break;
             
         case 4:
-            [self.WindowCredit setText:@"Frame「Window View」, by Stevie Spiers"];
+            [self.WindowCredit setText:@"Frame ©2014「Window View」, by Stevie Spiers"];
             break;
 
         case 5:
-            [self.WindowCredit setText:@"Frame「明月院 円窓」, by yuki_september"];
+            [self.WindowCredit setText:@"Frame ©2010「明月院 円窓」, by yuki_september"];
             break;
 
         case 6:
-            [self.WindowCredit setText:@"Frame「new route: Loop Line」, by tsuda"];
+            [self.WindowCredit setText:@"Frame ©2010「new route: Loop Line」, by tsuda"];
             break;
         
         case 7:
-            [self.WindowCredit setText:@"Frame「機窓」, by Noriko YAMAMOTO"];
+            [self.WindowCredit setText:@"Frame ©2009「機窓」, by Noriko YAMAMOTO"];
             break;
         
         case 8:
-            [self.WindowCredit setText:@"「Window to the World」, by Peter Kirkeskov Rasmussen"];
+            [self.WindowCredit setText:@"Frame ©2014「Window to the World」, by Peter Kirkeskov Rasmussen"];
             break;
             
         case 9:
-            [self.WindowCredit setText:@"Frame「Window cat」, by David Curran"];
+            [self.WindowCredit setText:@"Frame ©2013「Window cat」, by David Curran"];
             break;
         
         case 10:
-            [self.WindowCredit setText:@"Frame「PhoTones Works #3784」, by Takuma Kimura"];
+            [self.WindowCredit setText:@"Frame ©2013「PhoTones Works #3784」, by Takuma Kimura"];
             break;
             
         case 11:
-            [self.WindowCredit setText:@"Frame「Through the Door」, by halfrain"];
+            [self.WindowCredit setText:@"Frame ©2014「Through the Door」, by halfrain"];
             break;
             
         case 12:
-            [self.WindowCredit setText:@"Frame「Window」, by Stephanie Yoder"];
+            [self.WindowCredit setText:@"Frame ©2009「Window」, by Stephanie Yoder"];
             break;
             
         case 13:
-            [self.WindowCredit setText:@"Frame「Stained Glass Window」, by Sids1"];
+            [self.WindowCredit setText:@"Frame ©2009「Stained Glass Window」, by Sids1"];
             break;
             
         case 14:
-            [self.WindowCredit setText:@"Frame by Yosuke Watanabe"];
+            [self.WindowCredit setText:@"Frame ©2013 by Yosuke Watanabe"];
             break;
             
         case 15:
-            [self.WindowCredit setText:@"Frame「Window」, by Andrew Kuznetsov"];
+            [self.WindowCredit setText:@"Frame ©2007「Window」, by Andrew Kuznetsov"];
             break;
             
         case 16:
-            [self.WindowCredit setText:@"Frame「kitchen window」, by liz west"];
+            [self.WindowCredit setText:@"Frame ©2008「kitchen window」, by liz west"];
             break;
 
         case 17:
-            [self.WindowCredit setText:@"Frame「Rock Window, Yemen」, by Rod Waddington"];
+            [self.WindowCredit setText:@"Frame ©2013「Rock Window, Yemen」, by Rod Waddington"];
             break;
             
         case 18:
-            [self.WindowCredit setText:@"Frame「Windows」, by Brian Pirie"];
+            [self.WindowCredit setText:@"Frame ©2012「Windows」, by Brian Pirie"];
             break;
             
         case 19:
-            [self.WindowCredit setText:@"Frame「Bars on the Windows」, by Mike Gifford"];
+            [self.WindowCredit setText:@"Frame ©2011「Bars on the Windows」, by Mike Gifford"];
             break;
             
         case 20:
-            [self.WindowCredit setText:@"Frame「Through the Door」, by halfrain"];
+            [self.WindowCredit setText:@"Frame ©2011「Through the Door」, by halfrain"];
             break;
             
         default:
@@ -298,67 +298,67 @@
                 
             case 8:
                 _postURL = [NSString stringWithFormat:@"http://bit.ly/17CtPi6"];
-                _ccLicense = [NSString stringWithFormat:@"Frame「Window to the World」, by Peter Kirkeskov Rasmussen "];
+                _ccLicense = [NSString stringWithFormat:@"Frame ©2014「Window to the World」, by Peter Kirkeskov Rasmussen "];
                 break;
             
             case 9:
                 _postURL = [NSString stringWithFormat:@"http://bit.ly/1BEu21P"];
-                _ccLicense = [NSString stringWithFormat:@"Frame「Window cat」, by David Curran "];
+                _ccLicense = [NSString stringWithFormat:@"Frame ©2013「Window cat」, by David Curran "];
                 break;
             
             case 10:
                 _postURL = [NSString stringWithFormat:@"http://bit.ly/1asszQm"];
-                _ccLicense = [NSString stringWithFormat:@"Frame「PhoTones Works #3784」, by Takuma Kimura "];
+                _ccLicense = [NSString stringWithFormat:@"Frame ©2013「PhoTones Works #3784」, by Takuma Kimura "];
                 break;
             
             case 11:
                 _postURL = [NSString stringWithFormat:@"http://bit.ly/1Dx6AkH"];
-                _ccLicense = [NSString stringWithFormat:@"Frame「Through the Door」, by halfrain "];
+                _ccLicense = [NSString stringWithFormat:@"Frame ©2014「Through the Door」, by halfrain "];
                 break;
             
             case 12:
                 _postURL = [NSString stringWithFormat:@"http://bit.ly/1ast2BQ"];
-                _ccLicense = [NSString stringWithFormat:@"Frame「Window」, by Stephanie Yoder "];
+                _ccLicense = [NSString stringWithFormat:@"Frame ©2009「Window」, by Stephanie Yoder "];
                 break;
 
             case 13:
                 _postURL = [NSString stringWithFormat:@"http://bit.ly/1FBH51o"];
-                _ccLicense = [NSString stringWithFormat:@"Frame「Stained Glass Window」, by Sids1 "];
+                _ccLicense = [NSString stringWithFormat:@"Frame ©2009「Stained Glass Window」, by Sids1 "];
                 break;
             
             case 14:
                 _postURL = [NSString stringWithFormat:@"http://bit.ly/1wtyi2l"];
-                _ccLicense = [NSString stringWithFormat:@"Frame by Yosuke Watanabe "];
+                _ccLicense = [NSString stringWithFormat:@"Frame ©2013 by Yosuke Watanabe "];
                 break;
             
             case 15:
                 _postURL = [NSString stringWithFormat:@"http://bit.ly/1C2u6rT"];
-                _ccLicense = [NSString stringWithFormat:@"Frame「Window」, by Andrew Kuznetsov "];
+                _ccLicense = [NSString stringWithFormat:@"Frame ©2007「Window」, by Andrew Kuznetsov "];
                 break;
             
             case 16:
                 _postURL = [NSString stringWithFormat:@"http://bit.ly/1vEyRFE"];
-                _ccLicense = [NSString stringWithFormat:@"Frame「kitchen window」, by liz west "];
+                _ccLicense = [NSString stringWithFormat:@"Frame ©2008「kitchen window」, by liz west "];
                 break;
                 
             case 17:
                 _postURL = [NSString stringWithFormat:@"http://bit.ly/1wtyBdm"];
-                _ccLicense = [NSString stringWithFormat:@"Frame「Rock Window, Yemen」, by Rod Waddington "];
+                _ccLicense = [NSString stringWithFormat:@"Frame ©2013「Rock Window, Yemen」, by Rod Waddington "];
                 break;
             
             case 18:
                 _postURL = [NSString stringWithFormat:@"http://bit.ly/1G037hQ"];
-                _ccLicense = [NSString stringWithFormat:@"Frame「Windows」, by Brian Pirie "];
+                _ccLicense = [NSString stringWithFormat:@"Frame ©2012「Windows」, by Brian Pirie "];
                 break;
             
             case 19:
                 _postURL = [NSString stringWithFormat:@"http://bit.ly/1MXenh7"];
-                _ccLicense = [NSString stringWithFormat:@"Frame「Bars on the Windows」, by Mike Gifford "];
+                _ccLicense = [NSString stringWithFormat:@"Frame ©2011「Bars on the Windows」, by Mike Gifford "];
                 break;
                 
             case 20:
                 _postURL = [NSString stringWithFormat:@"http://bit.ly/1Dx6AkH"];
-                _ccLicense = [NSString stringWithFormat:@"Frame「Through the Door」, by halfrain "];
+                _ccLicense = [NSString stringWithFormat:@"Frame ©2011「Through the Door」, by halfrain "];
                 break;
         }
         
