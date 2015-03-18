@@ -49,7 +49,7 @@
     int x = [_CNumbers intValue];
     switch (x) {
         case 1:
-            [self.WindowCredit setText:@"Frame「P4080927」, by biscorogus"];
+            [self.WindowCredit setText:@"Frame ©2014「P4080927」, by biscorogus"];
             break;
         
         case 2:
@@ -176,17 +176,25 @@
     // 指定したビューをPNGで取得
     UIImage *pngImage = [UIImage imageWithData:pngPicture];
     // 取得したPNG画像をカメラロールに保存する
-    UIImageWriteToSavedPhotosAlbum(pngImage, nil, nil, nil);
+    //画像保存完了時のセレクタ指定
+    SEL selector = @selector(onCompleteCapture:didFinishSavingWithError:contextInfo:);
+    UIImageWriteToSavedPhotosAlbum(pngImage, self, selector, nil);
     UIGraphicsEndImageContext();
-    
+}
+
+//画像保存完了時のセレクタ
+- (void)onCompleteCapture:(UIImage *)screenImage
+ didFinishSavingWithError:(NSError *)error contextInfo:(void *)contextInfo
+{
+    NSString *message = @"画像を保存しました";
+    if (error) message = @"画像を保存できません";
     UIAlertView *alert = [[UIAlertView alloc] initWithTitle: @""
-                                                    message: @"画像を保存しました"
+                                                    message: message
                                                    delegate: nil
                                           cancelButtonTitle: @"OK"
                                           otherButtonTitles: nil];
     [alert show];
 }
-
 
 - (IBAction)backAction:(id)sender {
     [self performSegueWithIdentifier:@"mainToHome" sender:self];
@@ -255,37 +263,37 @@
         switch (x) {
             case 1:
                 _postURL = [NSString stringWithFormat:@"http://bit.ly/1AyKxdr"];
-                _ccLicense = [NSString stringWithFormat:@"Frame「P4080927」, by biscorogus "];
+                _ccLicense = [NSString stringWithFormat:@"Frame ©2014「P4080927」, by biscorogus "];
                 break;
                 
             case 2:
                 _postURL = [NSString stringWithFormat:@"http://bit.ly/1Dg9gAs"];
-                _ccLicense = [NSString stringWithFormat:@"Frame「PhoTones Works #3184」, by Takuma Kimura "];
+                _ccLicense = [NSString stringWithFormat:@"Frame ©2013「PhoTones Works #3184」, by Takuma Kimura "];
                 break;
                 
             case 3:
                 _postURL = [NSString stringWithFormat:@"http://bit.ly/1wnNKau"];
-                _ccLicense = [NSString stringWithFormat:@"Frame「By the window」, by Susanne Nilsson "];
+                _ccLicense = [NSString stringWithFormat:@"Frame ©2014「By the window」, by Susanne Nilsson "];
                 break;
 
             case 4:
                 _postURL = [NSString stringWithFormat:@"http://bit.ly/1DYad4h"];
-                _ccLicense = [NSString stringWithFormat:@"Frame「Window View」, by Stevie Spiers "];
+                _ccLicense = [NSString stringWithFormat:@"Frame ©2014「Window View」, by Stevie Spiers "];
                 break;
             
             case 5:
                 _postURL = [NSString stringWithFormat:@"http://bit.ly/1Dx5up4"];
-                _ccLicense = [NSString stringWithFormat:@"Frame「明月院 円窓」, by yuki_september "];
+                _ccLicense = [NSString stringWithFormat:@"Frame ©2010「明月院 円窓」, by yuki_september "];
                 break;
             
             case 6:
                 _postURL = [NSString stringWithFormat:@"http://bit.ly/1ETN4OZ"];
-                _ccLicense = [NSString stringWithFormat:@"Frame「new route: Loop Line」, by tsuda "];
+                _ccLicense = [NSString stringWithFormat:@"Frame ©2010「new route: Loop Line」, by tsuda "];
                 break;
                 
             case 7:
                 _postURL = [NSString stringWithFormat:@"http://bit.ly/1FBFx7q"];
-                _ccLicense = [NSString stringWithFormat:@"Frame「機窓」, by Noriko YAMAMOTO "];
+                _ccLicense = [NSString stringWithFormat:@"Frame ©2009「機窓」, by Noriko YAMAMOTO "];
                 break;
                 
             case 8:
@@ -355,7 +363,7 @@
         }
         
         // POSTするテキストの初期設定
-        NSString* message = [NSString stringWithFormat:@"Enmadoから覗いてみました"];
+        NSString* message = [NSString stringWithFormat:_ccLicense];
         [composeVC setInitialText:message];
         // URLをPOSTする場合
         [composeVC addURL:[NSURL URLWithString:_postURL]];
