@@ -49,83 +49,83 @@
     int x = [_CNumbers intValue];
     switch (x) {
         case 1:
-            [self.WindowCredit setText:@"Frame ©2014「P4080927」, by biscorogus"];
+            [self.WindowCredit setText:@"Frame 2014 \"P4080927\" by biscorogus"];
             break;
         
         case 2:
-            [self.WindowCredit setText:@"Frame ©2013「PhoTones Works #3184」, by Takuma Kimura"];
+            [self.WindowCredit setText:@"Frame 2013 \"PhoTones Works #3184\" by Takuma Kimura"];
             break;
         
         case 3:
-            [self.WindowCredit setText:@"Frame ©2014「By the window」, by Susanne Nilsson"];
+            [self.WindowCredit setText:@"Frame 2014 \"By the window\" by Susanne Nilsson"];
             break;
             
         case 4:
-            [self.WindowCredit setText:@"Frame ©2014「Window View」, by Stevie Spiers"];
+            [self.WindowCredit setText:@"Frame 2014 \"Window View\" by Stevie Spiers"];
             break;
 
         case 5:
-            [self.WindowCredit setText:@"Frame ©2010「明月院 円窓」, by yuki_september"];
+            [self.WindowCredit setText:@"Frame 2010 \"明月院 円窓\" by yuki_september"];
             break;
 
         case 6:
-            [self.WindowCredit setText:@"Frame ©2010「new route: Loop Line」, by tsuda"];
+            [self.WindowCredit setText:@"Frame 2010 \"new route: Loop Line\" by tsuda"];
             break;
         
         case 7:
-            [self.WindowCredit setText:@"Frame ©2009「機窓」, by Noriko YAMAMOTO"];
+            [self.WindowCredit setText:@"Frame 2009 \"機窓\" by Noriko YAMAMOTO"];
             break;
         
         case 8:
-            [self.WindowCredit setText:@"Frame ©2014「Window to the World」, by Peter Kirkeskov Rasmussen"];
+            [self.WindowCredit setText:@"Frame 2014 \"Window to the World\" by Peter Kirkeskov Rasmussen"];
             break;
             
         case 9:
-            [self.WindowCredit setText:@"Frame ©2013「Window cat」, by David Curran"];
+            [self.WindowCredit setText:@"Frame 2013 \"Window cat\" by David Curran"];
             break;
         
         case 10:
-            [self.WindowCredit setText:@"Frame ©2013「PhoTones Works #3784」, by Takuma Kimura"];
+            [self.WindowCredit setText:@"Frame 2013 \"PhoTones Works #3784\" by Takuma Kimura"];
             break;
             
         case 11:
-            [self.WindowCredit setText:@"Frame ©2014「Through the Door」, by halfrain"];
+            [self.WindowCredit setText:@"Frame 2014 \"Through the Door\" by halfrain"];
             break;
             
         case 12:
-            [self.WindowCredit setText:@"Frame ©2009「Window」, by Stephanie Yoder"];
+            [self.WindowCredit setText:@"Frame 2009 \"Window\" by Stephanie Yoder"];
             break;
             
         case 13:
-            [self.WindowCredit setText:@"Frame ©2009「Stained Glass Window」, by Sids1"];
+            [self.WindowCredit setText:@"Frame 2009 \"Stained Glass Window\" by Sids1"];
             break;
             
         case 14:
-            [self.WindowCredit setText:@"Frame ©2013 by Yosuke Watanabe"];
+            [self.WindowCredit setText:@"Frame 2013 by Yosuke Watanabe"];
             break;
             
         case 15:
-            [self.WindowCredit setText:@"Frame ©2007「Window」, by Andrew Kuznetsov"];
+            [self.WindowCredit setText:@"Frame 2007 \"Window\" by Andrew Kuznetsov"];
             break;
             
         case 16:
-            [self.WindowCredit setText:@"Frame ©2008「kitchen window」, by liz west"];
+            [self.WindowCredit setText:@"Frame 2008 \"kitchen window\" by liz west"];
             break;
 
         case 17:
-            [self.WindowCredit setText:@"Frame ©2013「Rock Window, Yemen」, by Rod Waddington"];
+            [self.WindowCredit setText:@"Frame 2013 \"Rock Window, Yemen\" by Rod Waddington"];
             break;
             
         case 18:
-            [self.WindowCredit setText:@"Frame ©2012「Windows」, by Brian Pirie"];
+            [self.WindowCredit setText:@"Frame 2012 \"Windows\" by Brian Pirie"];
             break;
             
         case 19:
-            [self.WindowCredit setText:@"Frame ©2011「Bars on the Windows」, by Mike Gifford"];
+            [self.WindowCredit setText:@"Frame 2011 \"Bars on the Windows\" by Mike Gifford"];
             break;
             
         case 20:
-            [self.WindowCredit setText:@"Frame ©2011「Through the Door」, by halfrain"];
+            [self.WindowCredit setText:@"Frame 2011 \"Through the Door\" by halfrain"];
             break;
             
         default:
